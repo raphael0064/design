@@ -1,4 +1,4 @@
-package DataType;
+package datatype;
 
 /**
  * 内置数据类型
