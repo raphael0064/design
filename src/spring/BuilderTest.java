@@ -1,4 +1,4 @@
-package design.concreate.builder2;
+package spring;
 
 import org.junit.Test;
 
