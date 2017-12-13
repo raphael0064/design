@@ -7,7 +7,6 @@ import org.jdom.xpath.XPath;
 
 import java.io.File;
 import java.lang.reflect.Method;
-import java.net.URL;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
@@ -20,10 +19,8 @@ public class ClassPathXMLApplicationContext implements ApplicationContext {
 	private Map map = new HashMap();
 
 	public ClassPathXMLApplicationContext(String config_file) {
-		URL url = this.getClass().getClassLoader().getResource(config_file);
-
 		try {
-			file = new File(url.toURI());
+			file = new File(config_file);
 			XMLParsing();
 		} catch (Exception e) {
 			e.printStackTrace();

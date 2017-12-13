@@ -6,7 +6,7 @@
         <property name="add" value="China"/>
     </bean>
 
-    <bean id="StudentService" class="cn.shu.service.StudentService">
+    <bean id="StudentService" class="read.src.StudentService">
         <property ref="Student"/>
     </bean>
 </beans>

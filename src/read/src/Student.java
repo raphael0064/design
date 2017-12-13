@@ -6,7 +6,7 @@ public class Student {
 	  private String add;
 	  
 	  public void selfIntroDuction(){
-	        System.out.println("�ҵ������� " + name + " ������ " + add);
+	        System.out.println("name:" + name + ",add: " + add);
 	   
 	   }
 	  
